@@ -500,10 +500,12 @@ export {
     sp_validate,
     stream,
     stream_from_info,
+    video_stream_info,
     validate,
     video_basic_info,
     video_info,
     yt_validate,
+    parseAudioFormats,
     InfoData
 };
 
