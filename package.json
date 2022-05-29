@@ -1,6 +1,6 @@
 {
-  "name": "play-dl",
-  "version": "1.9.4",
+  "name": "@gary50613/play-dl",
+  "version": "1.9.5",
   "description": "YouTube, SoundCloud, Spotify, Deezer searching and streaming for discord-js bots",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/play-dl/play-dl"
+    "url": "git+https://github.com/Gary50613/play-dl"
   },
   "keywords": [
     "node-youtube-dl",
@@ -32,12 +32,12 @@
   "author": "Killer069",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/play-dl/play-dl/issues"
+    "url": "https://github.com/Gary50613/play-dl/issues"
   },
   "engines": {
     "node": ">=16.0.0"
   },
-  "homepage": "https://github.com/play-dl/play-dl#readme",
+  "homepage": "https://github.com/Gary50613/play-dl#readme",
   "files": [
     "dist/*"
   ],
