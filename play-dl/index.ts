@@ -76,9 +76,10 @@ interface SearchOptions {
 
 import { createInterface } from 'node:readline';
 import { existsSync, mkdirSync, writeFileSync } from 'node:fs';
-import { stream as yt_stream, StreamOptions, stream_from_info as yt_stream_info } from './YouTube/stream';
+import { stream as yt_stream, StreamOptions, parseAudioFormats, stream_from_info as yt_stream_info } from './YouTube/stream';
 import { yt_search } from './YouTube/search';
 import { EventEmitter } from 'stream';
+import { video_stream_info } from "./YouTube/utils/extractor";
 
 async function stream(url: string, options: { seek?: number } & StreamOptions): Promise<YouTubeStream>;
 async function stream(url: string, options?: StreamOptions): Promise<YouTubeStream | SoundCloudStream>;
@@ -544,6 +545,8 @@ export default {
     stream_from_info,
     validate,
     video_basic_info,
+    video_stream_info,
     video_info,
-    yt_validate
+    yt_validate,
+    parseAudioFormats
 };
